@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1199px) {
+    .header-area {
+        padding: 22px 0;
+    }
+
+    .inner-text h2 {
+        font-size: 38px;
+    }
+    .section-title h2{
+        font-size: 30px;
+    }
+    /* .course-thumb{
+        height:288px;
+    } */
+    .features-wrapper h3{
+        font-size: 20px;
+    }
+    .shap01{
+        left: 18%;
+    }
+    .student-wrapper h2 {
+        font-size: 30px;
+    }
+    .shap02{
+        top: -20%;
+    }
+    .edu-right h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .inner-text h2 {
+        font-size: 36px;
+    }
+    .bg-img {
+        height: 840px;
+        background-position: 80% 0%;
+    }
+    .inner-text {
+        padding-top: 180px;
+    }
+    /* .course-thumb{
+        height:212px;
+    } */
+    .shap02{
+        left: 34%;
+        top: -8%;
+    }
+    .shap01{
+        left:40%;
+        top: 170px;
+    }
+    .footer-wid2 {
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .bg-img {
+        height: 600px;
+        background-position: inherit;
+    }
+    .header-cart {
+        margin-right: 0;
+    }
+    .inner-text {
+        padding-top: 60px;
+    }
+    .section-title h2{
+        font-size: 28px;
+    }
+    /* .course-thumb{
+        height:326px;
+    } */
+}
+@media only screen and (max-width: 575px) {
+    .inner-text h2 {
+        font-size: 30px;
+    }
+    .section-title h2{
+        font-size: 26px;
+    }
+    /* .course-thumb{
+        height:291px;
+    } */
+    .course-cart {
+        display: none;
+    }
+    .shap02{
+        left:45%;
+        top:1%;
+    }
+    .edu-right h2 {
+        font-size: 26px;
+    }
+    .copyright-text p {
+        margin-bottom: 20px;
+    }
+    .copy-sub button {
+        /* margin-bottom: 20px; */
+        position: relative;
+        left: 0;
+    }
+}
