@@ -5,10 +5,12 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
 export default function Header() {
+    
     window.addEventListener('scroll', function () {
         var header = this.document.querySelector('header');
         header.classList.toggle('sticky', this.window.scrollY > 65)
-    })
+    });
+
     return (
         <>
             <header className='h-main '>
