@@ -74,7 +74,10 @@ export default function Home() {
 
     return (
         <>
+
+
             <div className="bg-img">
+                {/* <Header/> */}
                 <div className="bg-text position-relative">
                     <Container>
                         <Row>
@@ -120,7 +123,7 @@ export default function Home() {
                     </Container>
                 </div>
             </div>
-            <div className='top-catagory spacer'>
+            <div className='top-catagory spacer' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                 <Container>
                     <Row className='align-items-center justify-content-center'>
                         <Col className='col-auto text-center'>
@@ -137,7 +140,7 @@ export default function Home() {
                     </Row>
                 </Container>
             </div>
-            <div className="course-area spacer">
+            <div className="course-area spacer" data-aos="fade-up">
                 <Container>
                     <Row>
                         <Col xl={12}>
@@ -916,6 +919,7 @@ export default function Home() {
                                         <h3>Helpful Instructors !</h3>
                                         <p>Thanks to our marketplace model, our content keeps pace with market changes. You’ll find courses on the latest technologies and business practice and more!</p>
                                         <div className="tesi-icon">
+
                                             <FaStar />
                                             <FaStar />
                                             <FaStar />

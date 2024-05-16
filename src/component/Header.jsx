@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaChevronDown, FaPlus } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
 export default function Header() {
+    window.addEventListener('scroll', function () {
+        var header = this.document.querySelector('header');
+        header.classList.toggle('sticky', this.window.scrollY > 65)
+    })
     return (
         <>
-            <header className='sticky-top bg-white h-main'>
+            <header className='h-main '>
                 <div className='header-area'>
                     <Container fluid>
                         <Row className='align-items-center justify-content-between'>
