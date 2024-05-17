@@ -123,7 +123,7 @@ export default function Home() {
                     </Container>
                 </div>
             </div>
-            <div className='top-catagory spacer' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+            <div className='top-catagory spacer' data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
                 <Container>
                     <Row className='align-items-center justify-content-center'>
                         <Col className='col-auto text-center'>
@@ -140,7 +140,7 @@ export default function Home() {
                     </Row>
                 </Container>
             </div>
-            <div className="course-area spacer" data-aos="fade-up">
+            <div className="course-area spacer" data-aos="zoom-out">
                 <Container>
                     <Row>
                         <Col xl={12}>
